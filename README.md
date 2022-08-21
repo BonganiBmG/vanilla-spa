@@ -12,6 +12,11 @@ npm install --global serve
 ```
 
 > **Note:** You will need to install Node Package Manager [from here](https://nodejs.org/en/download/)
+> **Note:** For Mac Users please note the following when after downloading
+                1. Make a directory for global installations:
+                    mkdir ~/.npm-global
+                2. NPM_CONFIG_PREFIX=~/.npm-global
+                3. Then run npm install --global serve
 
 
 ### Run the application
